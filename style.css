@@ -27,12 +27,11 @@ nav {
     flex-wrap: wrap;
 }
 
-
-
 .nav-links-ver {
     display: none;
     justify-content: space-around;
     flex-wrap: wrap;
+    z-index: 2;
 }
 
 .nav-links-ver li,
@@ -112,6 +111,7 @@ nav {
     background-image: linear-gradient(rgba(0,0,0,0.5),#000);
     word-spacing: 5px;
     box-shadow: 1px 5px 500px #fff;
+    z-index: 1;
 }
 
 .text-banner h1 {
