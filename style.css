@@ -161,6 +161,11 @@ nav {
         font-size: 1.5em;
     }
 
+    .text-banner {
+        font-size: 0.6em;
+        width: 85%;
+        transform: translateX(-30%);
+    }
     
 }
 
