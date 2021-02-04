@@ -99,6 +99,29 @@ nav {
     font-size: 1.8em;
 }
 
+.text-banner {
+    width: 50%;
+    color: #fff;
+    margin: auto;
+    padding: 0 20px 20px 20px;
+    border-radius: 5px; 
+    position: absolute;
+    top: 30%;
+    left: 35%;
+    transform: translateX(-50%);
+    background-image: linear-gradient(rgba(0,0,0,0.5),#000);
+    word-spacing: 5px;
+    box-shadow: 1px 5px 500px #fff;
+}
+
+.text-banner h1 {
+    font-size: 4em;
+    line-height: 2em;
+}
+.text-banner p {
+    font-size: 2em;
+    line-height: 1.5em;
+}
 
 
 @media screen and (max-width: 770px){
