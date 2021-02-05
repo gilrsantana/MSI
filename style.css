@@ -82,14 +82,19 @@ nav {
 
 .burger {
     text-align: center;
-    width: 25vh;
+    width: 40px;
+    height: 40px;
+    padding: 7px;
+    border-radius: 5px;
+    background-color: #2366a0;
     cursor: pointer;
     display: none;
     z-index: 2;
 }
 
 .burger img{
-    width: 25px;
+    width: 26px;
+    height: 26px;
 }
 
 .logo {
@@ -156,7 +161,7 @@ nav {
     .burger {
         display: flex;
         position: fixed;
-        right: -20vh;
+        right: 10px;
     }
 
     .logo {
@@ -211,11 +216,12 @@ nav {
 }
 
 .solution {
-    flex-basis: 20%;
+    display: inline-block;
+    width: 40%;
     background-color: #efefef;
     border-radius: 5px;
     padding: 15px;
-    margin-bottom: 20px;
+    margin: 20px;
     box-shadow: 1px 1px 3px #2E8CC6;
     position: relative;
     transition: transform 0.5s;
@@ -229,17 +235,21 @@ nav {
     width: 100%;
 }
 
-.solution h2 {
+.solution h2, 
+.solution-text h2 {
     line-height: 3em;
     color: #2366a0;
     font-size: 2em;
+    text-align: center;
 }
 
 .solution p {
     text-align: justify;
+    line-height: 2em;
 }
 
-.solution a{
+.solution a,
+.solution-text a{
     text-decoration: none;
     color: #2366a0;
     cursor: pointer;
@@ -251,14 +261,54 @@ nav {
     transition: 0.5s;
 }
 
-.solution a:hover {
+.solution a:hover,
+.solution-text a:hover {
     background: #2366a0;
     color: #fff;
    
 }
 
+.solution-text {
+    display: inline-block;
+    width: 84%;
+    text-align: center;
+    background-color: #efefef;
+    border-radius: 5px;
+    padding: 0 30px 20px 30px;
+    margin: 30px;
+    box-shadow: 1px 1px 3px #2E8CC6;
+    position: relative;
+    transition: transform 0.5s;
+}
+
+.solution-text p {
+    line-height: 3em;
+    text-align: justify;
+}
+.box1 {
+    width: 70%;
+    margin: auto;
+}
+
+.division {
+    width: 100%;
+    margin: 20px auto -20px;
+    height: 3px;
+    background:#2E8CC6;
+}
+
 @media screen and (max-width: 770px) {
     .solution {
-        flex-basis: 80%;
+        width: 84%;
+        margin: auto;
+        margin-bottom: 20px;
+    }
+
+    .box1 {
+        width: 100%;
+    }
+
+    .solution-text {
+        margin: 20px auto;
     }
 }
