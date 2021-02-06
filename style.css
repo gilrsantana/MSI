@@ -341,3 +341,13 @@ nav {
         flex-basis: 80%;
     }
 }
+
+/* ---- Partners section ---- */
+.box3 {
+    width: 100%;
+    background: #afafaf;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+}
